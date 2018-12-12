@@ -1,0 +1,52 @@
+.description, .meaning{
+	padding:.3em;
+	display:inline-block;
+	position:absolute;
+	margin-left:2em;
+	margin-top:2.2em;
+	font-size:1.2em;
+}
+
+.description{
+	top:0;
+
+}
+
+.meaning{
+	top:3em;	
+}
+
+.cardpic{
+	height:60vh;
+}
+
+.card{
+	margin:5vh;
+	position:relative;
+	max-width:70vw;
+	padding-left:5em;
+}
+
+#search{
+	position:absolute;
+	top:2.3em;
+	left:30em;
+	font-size:1em;
+}
+
+.error{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:7em;
+	width:25em;
+	padding:.5em;
+}
+
+button{
+	font-family: inherit;
+	font-size:1em;
+	position:absolute;
+	top:2.4em;
+	left:43em;
+}

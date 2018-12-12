@@ -1,0 +1,48 @@
+body{
+	overflow: hidden;
+}
+
+#spreadNumber{
+	margin-left:1em;
+}
+
+.question{
+	display: block;
+	width:25em;
+}
+
+
+.card{
+	display:inline-block;
+	margin:1em;
+	width:17%;
+	margin-left:3%;
+	vertical-align: top;
+	position:relative;
+}
+
+.eachCard{
+	max-width:445px;
+	width:100%;
+	height:auto;
+	cursor: pointer;
+}
+
+.openCard{
+	cursor:default;
+}
+
+.text{
+	align-items: center;
+}
+
+/*
+.hidden{
+	display:none;
+	position:absolute;
+	top:20%;
+	left:5em;
+	width:20em;
+	z-index:999;
+}
+*/

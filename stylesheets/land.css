@@ -1,0 +1,24 @@
+.menu{
+	font-size: 1.4em;
+	height:9.9em;
+}
+
+.field{
+	background: hsla(60, 100%, 94%,.6);
+}
+
+.center{
+	font-size: 2em;
+	position:absolute;
+	top:40%;
+	left:44%;
+}
+
+.logo{
+	position:absolute;
+	top:1em;
+	left:3em;
+	width:10%;
+	height:auto;
+	filter: linear-gradient(hsl(30,100%,90%),hsl(30,100%,90%),hsl(30,100%,90%));
+}

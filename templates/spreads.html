@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AstroLogos Tarot</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/spreads.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../json/tarot.json"></script>
+	<script type="text/javascript" src="../javascript/app.js"></script>
+	<script type="text/javascript" src="../javascript/spreads.js"></script>
+
+</head>
+<body>
+	<div class="menu field">
+		<div class="item field"></div>
+		<div class="item field currPage"></div>
+		<div class="item field"></div>
+		<div class="item field"></div>
+		<div class="item field"></div>
+	</div>
+
+	<h1 class="field">Tarot spreads</h1>
+	
+	<div class="field text question">
+		How many cards would you like?
+		<input class="field" id="spreadNumber" type="number" min="1" max="4" placeholder="0">
+		<button class="field start">Shuffle the cards</button>
+	</div>
+	<div class="box"></div>
+
+</body>
+</html>

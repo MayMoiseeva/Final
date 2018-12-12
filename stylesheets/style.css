@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Flamenco|Amiri');
+
+body{
+	font-family:'Flamenco', serif;
+	background:hsl(30,78%,91%);
+	background-image:url(../images/bg.jpg);
+	background-repeat: repeat-y;
+	background-size: 100vw;	
+}
+
+.field{
+	background: hsla(60, 100%, 94%,.85);
+	border: 2px solid hsl(22,40%,70%);
+	border-radius:.3em;	
+	transition: .6s all;
+}
+
+.text{
+	display:inline-block;
+	padding:.2em .4em;
+	font-size:1.1em;
+}
+
+h1{
+	font-weight: normal;
+	width:12em;
+	padding:.2em;
+	padding-left:.7em;
+}
+
+a{
+	text-decoration: inherit;
+	font: inherit;
+	color:inherit;
+}
+
+a:hover{
+	color:hsl(0,0%,60%);
+}
+
+
+.menu{
+	width:3.9em;
+	height:3.5em;
+	font-size:1.2em;
+	border-width: 3px;
+	border-radius:.4em;
+	position:fixed;
+	right:0;
+	top:0;
+	z-index:1000;
+}
+
+.item{
+	width:3.8em;
+	height:.5em;
+	margin:0;
+	z-index:1001;
+}
+
+.currPage{
+	color:hsl(0,0%,50%);
+}
+
+.open{
+	width:14.1em;
+	height:10em;
+	padding:0;
+	position:fixed;
+	right:0;
+	top:0;
+}
+
+.active{
+	width:13em;
+	margin:0;
+	height:.8em;
+	padding:.5em;
+}
+
+button{
+	font-family: inherit;
+	font-size: inherit;	
+	background:hsla(60, 0%, 10%, .07);
+}

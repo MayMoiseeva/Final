@@ -1,0 +1,28 @@
+body{
+	overflow: hidden;
+}
+
+.head{
+	position:absolute;
+	top: 25%;
+	left:10%;
+	margin:0;
+	width:19%;
+	align-items: center;
+	cursor: pointer;
+	transition:0s all;
+}
+
+.headshot{
+	width:100%;
+	height:auto;
+}
+
+.content{
+	font-size:1.2em;
+	padding:1em .5em;
+	width:40%;
+	position:absolute;
+	left:35%;
+	top:40%;
+}

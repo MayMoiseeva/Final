@@ -1,0 +1,634 @@
+tarot = {
+	"cards":[
+		{
+			"number":"0",
+			"picurl":"0fool.png",
+			"value":"0",
+			"id":"fool",
+			"name":"The Fool",
+			"description": "innocence, trust, new beginnings, open mind",
+			"fullmeaning":"The Fool in a reading often denotes embarking on a journey, whatever that journey might be. This card encourages you to keep an open mind. Try not to assume things about your situation and you will be rewarded. <br><br>Alternatively, The Fool can signify that it is time to call upon the childlike part of you. Trust in the universe to keep you safe and go on an adventure you have been meaning to go on."
+		},
+		{
+			"number":"1",
+			"picurl":"1magician.png",
+			"value":"1",
+			"id": "magician",
+			"name":"The Magician",
+			"description": "personal agency, power, intent, inner potential",
+			"fullmeaning":"The Magician in readings represents power and potential. Listen to your inner self and believe in your own power to do things you want. Take control of your life and manifest your own intent. Once you take control of your own destiny and align your actions and intentions, you will become the Magician themselves. <br><br>The Magician can also signify the Querent (i.e. the tarot reader) themselves in certain readings. Apply yourself and you will achieve all you want to achieve."
+		},
+		{
+			"number":"2",
+			"picurl":"2priestess.png",
+			"value":"2",
+			"id":"high priestess",
+			"name":"The High Priestess",
+			"description": "spirituality, inner wisdom, intuition",
+			"fullmeaning":"The High Priestess is a call for you to turn within yourself to realize your inner wisdom. You already know all the answers you want, you need only to listen to your inner voice and align yourself to the tunes that you tend to ignore in your daily life. Notice the little things you do not pay attention to. You are a spiritual being, you merely have to follow the advice you do not allow yourself to hear."
+		},
+		{
+			"number":"3",
+			"picurl":"3empress.png",
+			"value":"3",
+			"id": "empress",
+			"name":"The Empress",
+			"description": "creativity, nurturing, mother figures, sensuality",
+			"fullmeaning":"The Empress in a reading encourages you to create. You have an abundance of ideas and resources, so indulge in all of them, physically and artistically. It is a time for celebrating sensuality and creativity. Treat yourself! <br><br>The Empress can signify a maternal figure, who may be important to your progress now."
+		},
+		{
+			"number":"4",
+			"picurl":"4emperor.png",
+			"value":"4",
+			"name":"The Emperor",
+			"description": "power, leadership, father figures, rationality",
+			"fullmeaning":"The Emperor prompts you to think logically and rationally about your situation. Rules and structure are important to uphold now; follow your head and not just your heart. If you are in a position of power or leadership at the moment, try to think logically through any decisions you make for those who depend on you. Set helpful rules and limits for yourself and those around you. <br><br>The Emperor can signify a father figure, who may be important to your progress now."
+		},
+		{
+			"number":"5",
+			"picurl":"5hierophant.png",
+			"value":"5",
+			"name":"The Hierophant",
+			"description": "knowledge, beliefs, teaching",
+			"fullmeaning":"The Hierophant in a reading prompts you to examine the teaching aspect of your life. Examine your belief system: are you attuned to your inner self or are you merely following them because that is what you think you should do? You might have an opportunity to teach someone or learn from someone; make sure to critically examine all the knowledge exchanged. Remember not to turn learning process into a rigid one; most things in the world are relative and/or flexible."
+		},
+		{
+			"number":"6",
+			"picurl":"6lovers.png",
+			"value":"6",
+			"name":"The Lovers",
+			"description": "love, choice, sexuality",
+			"fullmeaning":"The Lovers card in a reading can signify that you should tune into both your heart and your head. Are they united on a decision you are about to make? Choose the option that feels right and is made out of love (whether for youself or the world). Exercise your agency and love in making the choice, and you will be on the right path.<br><br>It is a time for celebration of love and affection in all of their forms, including passions for hobbies and self-love."
+		},
+		{
+			"number":"7",
+			"picurl":"7chariot.png",
+			"value":"7",
+			"name":"The Chariot",
+			"description": "competence, self-control, discipline",
+			"fullmeaning":"The Chariot is a card of control and focus. Stay disciplined and work to achieve your goal, it is within your reach. Do not choose short-term gratification and remember the reasons why you are doing what you are doing; it will be worth it in the end. Do not let yourself get thrown off course, and you will succeed. <br><br>Alternatively, the Chariot may represent travel and transportation."
+		},
+		{
+			"number":"8",
+			"picurl":"8strength.png",
+			"value":"8",
+			"name":"Strength",
+			"description": "instinct, inner strength, survival",
+			"fullmeaning":"Strength is the card that signals that it is time to look to your hidden inner strength. Work with the instinctive part of yourself that might not feel highly spiritual; do not shy away from your basic drives. Rather, seek to find balance between those and higher aspirations. Being physical and grounded, through whatever methods work for you, might help open doors for your progress. <br><br>In conflict, Strength may be read as a card of compassion and love. Not all strength is physical, sometimes the bravest thing is to open your heart and mind to someone."
+		},
+		{
+			"number":"9",
+			"picurl":"9hermit.png",
+			"value":"9",
+			"name":"The Hermit",
+			"description": "solitude, introspection, wisdom, guidance",
+			"fullmeaning":"The Hermit calls you to withdraw from the world or from your situation. What you need right now is introspection and looking deep within yourself without distractions of the outside forces. Not only are the answers you seek within you, your mind needs to restore and reflect now. You will be ready to take on more challenges later if you allow yourself to rest and take space for yourself now. <br><br>Alternatively, the Hermit might signify a teacher or a mentor who can help with your current situation."
+		},
+		{
+			"number":"10",
+			"picurl":"10wheel.png",
+			"value":"10",
+			"name":"Wheel of Fortune",
+			"description": "taking action, chance, change, luck",
+			"fullmeaning":"The Wheel of Fortune is the card of change. The world is constantly changing, moving forward, and turning, and the only way to deal with it is embrace the movement and try to direct it as best you can. Sometimes things are out of our control and are instead happen by chance, but that does not mean we do not have agency. We have control over how we respond to them and how we direct happenings around us in the future. Do not try to control everything and try to accept what is, but do not lose sight of your agency; you might soon need to make calm calculated decisions and exercise your power. <br><br>If you have been feeling like you are out of luck, the Wheel of Fortune might be signaling that things are about to take a turn for the better."
+		},
+		{
+			"number":"11",
+			"picurl":"11justice.png",
+			"value":"11",
+			"name":"Justice",
+			"description": "balance, impartiality, fairness, ethics",
+			"fullmeaning":"Justice is the card that signals a need for balance. Your actions now will have fair outcomes; whatever you put out into the world will come back to you. The truth and fairness is about to be brought into the world. It is also time to think logically and not let emotions decide things for you.<br><br>Justice might also indicate legal proceedings or court appearance."
+		},
+		{
+			"number":"12",
+			"picurl":"12hanged.png",
+			"value":"12",
+			"name":"The Hanged Man",
+			"description": "sacrifice, patience, contemplation",
+			"fullmeaning":"The Hanged Man in a reading tells you to release some control and let go. Try to accept the uncertainty and the ambiguity. It calls for you to review what has come before and not to try to do too much when you are not ready. Now is the time to get in touch with the spiritual rather than bog yourself down in too much action. <br><br>The Hanged Man might be signaling that a certain sacrifice is required for progress."
+		},
+
+		{
+			"number":"13",
+			"picurl":"13death.png",
+			"value":"13",
+			"name":"Death",
+			"description": "transformation, closure, ending",
+			"fullmeaning":"Death is the card of endings. It is time to get rid of things that no longer serve their purpose in your life. The change that you are about to experience might not be easy, but it will be rewarding later on. Everyone can embody the spirit of the phoenix who rises from the ashes; the ending does not mean a stop to your life.<br><br>If you are going through mourning or a painful loss, Death lets you know that this change, however painful, is necessary for your progress. This is the ending of a chapter of your life; it is not the end of you."
+		},
+		{
+			"number":"14",
+			"picurl":"14temperance.png",
+			"value":"14",
+			"name":"Temperance",
+			"description": "creating, compromise, balance",
+			"fullmeaning":"Temperance is a card of adjustment. The Universe is combining things in order to make something new entirely. Be sure not to seek conflict and not to stick only to what you know; Temperance provides a safe space to experiment and go out of your comfort zone in collaboration with the world around you. Find balance through compromise between the different aspects of your situation; this is a sure way to succeed now."
+		},
+		{
+			"number":"15",
+			"picurl":"15devil.png",
+			"value":"15",
+			"name":"The Devil",
+			"description": "commitment, indulgence, limitations",
+			"fullmeaning":"The Devil is a card of indulgence to the extreme. If you are doing something that only feels good, but does not seem like a good idea, this card warns you that it will not yield you a good result in the long run. Do not ignore the voice of your conscience or messages from your inner self; self-deception will catch up with you.<br><br>Alternatively, The Devil might be telling you that you have gone to the opposite extreme. If you are overly invested into something that only seems to be good for you, but brings you suffering now, balance is needed."
+		},
+		{
+			"number":"16",
+			"picurl":"16tower.png",
+			"value":"16",
+			"name":"The Tower",
+			"description": "destruction, questioning beliefs, chaos",
+			"fullmeaning":"The Tower is a card of sudden upheaval. The Universe says it is time for change. Ready or not, here it comes. It might take off a few heads in the process, so be careful in how you deal with it. Do not fight it, but instead try to roll with the changes, as there is little you can do now but adapt to what happens.<br><br>The Tower also urges you to prepare for emergencies. Think ahead; do you have a plan in case everything goes wrong?"
+		},
+		{
+			"number":"17",
+			"picurl":"17star.png",
+			"value":"17",
+			"name":"The Star",
+			"description": "optimism, renewal, peace",
+			"fullmeaning":"The Star is first and foremost a card of hope. Trust things to turn out as you want them to now. You are on the right path; keep going and the rest will fall into place for you. Be sure not to neglect any aspect of yourself; The Star is also a card of healing, but the healing will not happen on its own. Whether it is you or someone else in your life who is in need of healing, be sure to take action and not leave it to get better on its own.<br><br>The Star might also be pointing you to astrology and the spiritual. The cosmos has something to tell you; you would do well to listen closely to it."
+		},
+		{
+			"number":"18",
+			"picurl":"18moon.png",
+			"value":"18",
+			"name":"The Moon",
+			"description": "the unconscious, dreams, intuition",
+			"fullmeaning":"The Moon is a card of the dark and the hidden. Pay attention to your intuition and feelings, not just to your rational mind. Get in tune with the spiritual. <br><br>The Moon might be telling you that something in your life is hidden. You might be hiding from yourself or someone else might be hiding something from you. Follow your intuition on this; sometimes it is best to keep certain things hidden, while disclosing others."
+		},
+		{
+			"number":"19",
+			"picurl":"19sun.png",
+			"value":"19",
+			"name":"The Sun",
+			"description": "clarity, self-acceptance, enthusiasm",
+			"fullmeaning":"The Sun is a card of light. It is rising to reveal all that has been hidden in the shadows and provide clear vision and visibility. Share your thoughts and feelings with others. Turn to the childish nature inside and do not be afraid of being playful. Be authentic and do what makes you happy now. Being so in tune with yourself will give you a newfound clarity about your situation. Celebrate yourself and the world around you."
+		},
+		{
+			"number":"20",
+			"picurl":"20judgement.png",
+			"value":"20",
+			"name":"Judgement",
+			"description": "change, review, transition",
+			"fullmeaning":"Judgement is a card that signals a part of your life coming to an end. Look at what you have and what you want; do these things align? Look to your past successes and failures to see where to go next and what to keep in your life. Do not stick to what no longer belongs with you and be honest with yourself. Pay attention to your ideas and goals; they are not impossible. You merely need to apply yourself to do what you want to do. "
+		},
+		{
+			"number":"21",
+			"picurl":"21world.png",
+			"value":"21",
+			"name":"The World",
+			"description": "completion, wholeness, the earth",
+			"fullmeaning":"The World is a card of completion of a part of your life. You have learned what you could, and now it is time to move on. There are many paths in front of you; the entire world is waiting for you. Move beyond thinking small; your dreams can be as big as the world now. This card tells you that you have done enough in this part of your life, and you are enough. Think what you can offer not just yourself, but the world."
+		},
+		{
+			"number":"22",
+			"picurl":"cups1.png",
+			"value":"1",
+			"name":"Ace of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"23",
+			"picurl":"cups2.png",
+			"value":"2",
+			"name":"Two of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"24",
+			"picurl":"cups3.png",
+			"value":"3",
+			"name":"Three of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"25",
+			"picurl":"cups4.png",
+			"value":"4",
+			"name":"Four of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"26",
+			"picurl":"cups5.png",
+			"value":"5",
+			"name":"Five of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"27",
+			"picurl":"cups6.png",
+			"value":"6",
+			"name":"Six of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"28",
+			"picurl":"cups7.png",
+			"value":"7",
+			"name":"Seven of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"29",
+			"picurl":"cups8.png",
+			"value":"8",
+			"name":"Eight of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"30",
+			"picurl":"cups9.png",
+			"value":"9",
+			"name":"Nine of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"31",
+			"picurl":"cups10.png",
+			"value":"10",
+			"name":"Ten of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"32",
+			"picurl":"cupspage.png",
+			"value":"-1",
+			"name":"Page of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"33",
+			"picurl":"cupsknight.png",
+			"value":"-1",
+			"name":"Knight of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"34",
+			"picurl":"cupsking.png",
+			"value":"-1",
+			"name":"King of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"35",
+			"picurl":"cupsqueen.png",
+			"value":"-1",
+			"name":"Queen of Cups",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"36",
+			"picurl":"pentacles1.png",
+			"value":"1",
+			"name":"Ace of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"37",
+			"picurl":"pentacles2.png",
+			"value":"2",
+			"name":"Two of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"38",
+			"picurl":"pentacles3.png",
+			"value":"3",
+			"name":"Three of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"39",
+			"picurl":"pentacles4.png",
+			"value":"4",
+			"name":"Four of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"40",
+			"picurl":"pentacles5.png",
+			"value":"5",
+			"name":"Five of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"41",
+			"picurl":"pentacles6.png",
+			"value":"6",
+			"name":"Six of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"42",
+			"picurl":"pentacles7.png",
+			"value":"7",
+			"name":"Seven of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"43",
+			"picurl":"pentacles8.png",
+			"value":"8",
+			"name":"Eight of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"44",
+			"picurl":"pentacles9.png",
+			"value":"9",
+			"name":"Nine of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"45",
+			"picurl":"pentacles10.png",
+			"value":"10",
+			"name":"Ten of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"46",
+			"picurl":"pentaclespage.png",
+			"value":"-1",
+			"name":"Page of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"47",
+			"picurl":"pentaclesknight.png",
+			"value":"-1",
+			"name":"Knight of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"48",
+			"picurl":"pentaclesking.png",
+			"value":"-1",
+			"name":"King of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"49",
+			"picurl":"pentaclesqueen.png",
+			"value":"-1",
+			"name":"Queen of Pentacles",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"50",
+			"picurl":"swords1.png",
+			"value":"1",
+			"name":"Ace of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"51",
+			"picurl":"swords2.png",
+			"value":"2",
+			"name":"Two of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"52",
+			"picurl":"swords3.png",
+			"value":"3",
+			"name":"Three of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"53",
+			"picurl":"swords4.png",
+			"value":"4",
+			"name":"Four of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"54",
+			"picurl":"swords5.png",
+			"value":"5",
+			"name":"Five of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"55",
+			"picurl":"swords6.png",
+			"value":"6",
+			"name":"Six of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"56",
+			"picurl":"swords7.png",
+			"value":"7",
+			"name":"Seven of swords6",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"57",
+			"picurl":"swords8.png",
+			"value":"8",
+			"name":"Eight of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		
+		{
+			"number":"58",
+			"picurl":"swords9.png",
+			"value":"9",
+			"name":"Nine of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"59",
+			"picurl":"swords10.png",
+			"value":"10",
+			"name":"Ten of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"60",
+			"picurl":"swordspage.png",
+			"value":"-1",
+			"name":"Page of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"61",
+			"picurl":"swordsknight.png",
+			"value":"-1",
+			"name":"Knight of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"62",
+			"picurl":"swordsking.png",
+			"value":"-1",
+			"name":"King of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"63",
+			"picurl":"swordsqueen.png",
+			"value":"-1",
+			"name":"Queen of Swords",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"64",
+			"picurl":"wands1.png",
+			"value":"1",
+			"name":"Ace of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"65",
+			"picurl":"wands2.png",
+			"value":"2",
+			"name":"Two of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"66",
+			"picurl":"wands3.png",
+			"value":"3",
+			"name":"Three of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"67",
+			"picurl":"wands4.png",
+			"value":"4",
+			"name":"Four of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"68",
+			"picurl":"wands5.png",
+			"value":"5",
+			"name":"Five of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"69",
+			"picurl":"wands6.png",
+			"value":"6",
+			"name":"Six of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"70",
+			"picurl":"wands7.png",
+			"value":"7",
+			"name":"Seven of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"71",
+			"picurl":"wands8.png",
+			"value":"8",
+			"name":"Eight of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"72",
+			"picurl":"wands9.png",
+			"value":"9",
+			"name":"Nine of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"73",
+			"picurl":"wands10.png",
+			"value":"10",
+			"name":"Ten of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"74",
+			"picurl":"wandspage.png",
+			"value":"-1",
+			"name":"Page of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"75",
+			"picurl":"wandsknight.png",
+			"value":"-1",
+			"name":"Knight of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"76",
+			"picurl":"wandsking.png",
+			"value":"-1",
+			"name":"King of Wands",
+			"description": "",
+			"fullmeaning":""
+		},
+		{
+			"number":"77",
+			"picurl":"wandsqueen.png",
+			"value":"-1",
+			"name":"Queen of Wands",
+			"description": "",
+			"fullmeaning":""
+		}
+	]
+}

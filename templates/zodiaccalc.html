@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AstroLogos Tarot</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/zodiaccalc.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../javascript/app.js"></script>
+	<script type="text/javascript" src="../javascript/zodiaccalc.js"></script>
+
+</head>
+<body>
+	<div class="menu field">
+		<div class="item field"></div>
+		<div class="item field"></div>
+		<div class="item field"></div>
+		<div class="item field currPage"></div>
+		<div class="item field"></div>
+	</div>
+
+	<h1 class="field">Zodiac calculator</h1>
+	<div class="field content">
+		Feel free to choose your rising or sun sign. 
+		<span>
+			<input type="radio" class="day" name="day" value="yesterday">Yesterday
+	 		<input type="radio" class="day" name="day" value="today" checked="checked">Today
+			<input type="radio" class="day" name="day" value="tomorrow">Tomorrow  
+		</span>
+		<br>
+		<br>
+		What sign would you like to see?
+		<select class="field" id="sign">
+			<option value=""> </option>
+			<option value="aries">Aries</option>
+			<option value="taurus">Taurus</option>
+			<option value="gemini">Gemini</option>
+			<option value="cancer">Cancer</option>
+			<option value="leo">Leo</option>
+			<option value="virgo">Virgo</option>
+			<option value="libra">Libra</option>
+			<option value="scorpio">Scorpio</option>
+			<option value="sagittarius">Sagittarius</option>
+			<option value="capricorn">Capricorn</option>
+			<option value="aquarius">Aquarius</option>
+			<option value="pisces">Pisces</option>
+		</select>
+		<button class="calc field">Check the stars</button>
+		<div class="credit">Courtesy of <a href="https://aztro.sameerkumar.website" target="_blank">aztro.sameerkumar.website</a></div>
+	</div>
+</body>
+</html>

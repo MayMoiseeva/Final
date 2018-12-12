@@ -1,0 +1,45 @@
+.content{
+	display:inline-block;
+	width:60%;
+	position:absolute;
+	left:20%;
+	top:7em;
+}
+
+.line, .input{
+	display:block;
+	margin-top:.7em;
+	margin-bottom:1em;
+}
+
+.input{
+	height: 1.2em;
+	font-family: inherit;
+	font-size:1.2em;
+}
+
+button{
+	font-family: inherit;
+	font-size:1.2em;
+	padding:.2em;
+	position:absolute;
+	top:12em;
+	left:-4em;
+}
+
+button:active{
+	background:hsla(48, 40%, 80%,.85);
+}
+
+form{
+	position:absolute;
+	left:9em;
+	top:0em;
+
+}
+
+.area{
+	width:20em;
+	height:5em;
+}
+
