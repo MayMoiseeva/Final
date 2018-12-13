@@ -24,6 +24,8 @@ $(document).ready(function(){
 		$(".headshot")[0].src = urls[index];
 		$(".headshot")[0].alt = alts[index];
 		$(".head").toggleClass("field");
-		callback();
+		if (typeof callback == "function"){
+			callback();
+		}
 	}
 })
